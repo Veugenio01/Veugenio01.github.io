@@ -1,22 +1,40 @@
 body{
-    background : rgb(132, 189, 255);
+    background : rgb(191, 221, 255);
     font-family : Arial, Helvetica, sans-serif;
-
 }
 
 h1{
-    color : rgb(102, 60, 98);
+    color : #fdae8f;
     text-align : center;
+    background : rgb(139, 138, 138);
+    border-radius: 10px;
 }
 
 .assignment {
     display : flex;
     padding : 10px;
     margin : 10px;
-    background : lightgrey;
+    background : rgb(139, 138, 138);
+    border-radius: 10px;
 }
 
-.assignment img{
+.assignment img {
     width : 300px; 
-    padding : 10px;
+    border: 4px solid rgb(191, 221, 255);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.assignment img:hover {
+    border: 4px solid #fdae8f;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(191, 221, 255);
+}
+
+a:hover {
+text-decoration: underline;
+ color : #fdae8f;
 }
